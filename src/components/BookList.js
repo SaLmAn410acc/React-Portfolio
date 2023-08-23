@@ -1,4 +1,3 @@
-import "../style.css";
 import { Books } from "../booksData";
 import { Book } from "./Book";
 
