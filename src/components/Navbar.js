@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-light navbar-margin">
-          <a className="navbar-brand mr-auto" href="#">
+          <a className="navbar-brand mr-auto" href="# ">
             <img src={logo} alt="" className="nav-img" />
           </a>
           <button
@@ -30,11 +30,11 @@ const Navbar = () => {
             >
               {Links.map((link, index) => {
                 return (
-                  <li className="nav-item active">
+                  <li className="nav-item active" key={index}>
                     <a className="nav-link" href={link.href}>
                       {link.value}{" "}
                       {index === 0 ? (
-                        <span class="sr-only">(current)</span>
+                        <span className="sr-only">(current)</span>
                       ) : null}
                     </a>
                   </li>

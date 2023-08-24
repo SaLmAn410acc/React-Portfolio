@@ -8,11 +8,12 @@ import LandingPage from "../images/portfolio/LandingPage.jpg";
 import micro_board from "../images/portfolio/micro-board.jpg";
 import neontool from "../images/portfolio/neontool.jpg";
 import realestate from "../images/portfolio/realestate.jpg";
+import Title from "./Title";
 
 const Portfolio = () => {
   return (
     <section className="sec-4" id="portfolio">
-      <h2 className="text-center">Portfolio</h2>
+      <Title title="Portfolio" />
 
       <div className="container portfolio-items">
         <div className="row">

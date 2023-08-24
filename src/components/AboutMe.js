@@ -1,10 +1,11 @@
 import React from "react";
 import profile_image from "../images/about/profile_image.jpg";
+import Title from "./Title";
 
 const AboutMe = () => {
   return (
     <section className="sec-2">
-      <h2 className="text-center">About Me</h2>
+      <Title title="About Me" />
 
       <div className="container">
         <div className="row">
